@@ -16,7 +16,7 @@ The main libraries that we’re going to use is NumPy and for visualization we�
 
  
 
-#Feature Engineering:
+# Feature Engineering:
 
 In this part we will be doing Feature Engineering with respect to images. Now you might be wondering what we mean when we say that we’re going to perform feature engineering with respect to images. Now for images we can create new features by creating new images. This can be done using data augmentation or creating a new image using 1 image just by rotating it or making some changes to it. This helps in increasing models’ robustness and make it more robust against unseen data.
 
@@ -24,6 +24,6 @@ To perform the Feature Engineering, we will be using ImageDataGenerator from ker
 
  
 
-#Model:
+# Model:
 
 We will be creating a basic KNN Classifier and use it for prediction.Uses proximity to find respective output.
